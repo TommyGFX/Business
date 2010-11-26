@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/acp-menu.xsd">
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.content.business1">
+			<icon>icon/businessCategoriesM.png</icon>
+			<showorder>10</showorder>
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.content.business">
+			<parent>wcf.acp.menu.link.content.business1</parent>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.business.categories">
+			<parent>wcf.acp.menu.link.content.business</parent>
+			<showorder>1</showorder>
+			<link>index.php?page=BusinessCategoryList</link>
+			<icon>icon/businessCategoriesM.png</icon>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.business.categoryAdd">
+			<parent>wcf.acp.menu.link.content.business</parent>
+			<showorder>2</showorder>
+			<link>index.php?form=BusinessCategoryAdd</link>
+			<permissions>admin.business.canAddCategory</permissions> 
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.business.categoriesUpdate">
+			<parent>wcf.acp.menu.link.content.business</parent>
+			<showorder>3</showorder>
+			<link>index.php?action=BusinessCategoriesLinksUpdater</link>
+			<icon>icon/businessCategoryLinksUpdaterM.png</icon>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.business.export">
+			<parent>wcf.acp.menu.link.content.business</parent>
+			<showorder>3</showorder>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.business.exportAll">
+			<parent>wcf.acp.menu.link.content.business.export</parent>
+			<link>index.php?action=BusinessExport</link>
+		</acpmenuitem>
+	</import>
+</data>

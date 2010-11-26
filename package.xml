@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.wcf.tommygfx.business">
+	<packageinformation>
+		<packagename>Business Database</packagename>
+		<packagedescription>Dieses Plugin stellt Ihnen und Ihren Mitgliedern eine umfassende Business Database mit vielen Funktionen zur Verfügung.</packagedescription>
+		<version>0.2.4</version>
+		<date>2010-11-25</date>
+		<plugin>com.woltlab.wcf</plugin>
+		<standalone>0</standalone>
+		<isunique>1</isunique>
+	</packageinformation>
+  
+	<authorinformation>
+		<author>Rico P.</author>
+		<authorurl>http://www.tommygfx-design.de</authorurl>
+	</authorinformation>
+  
+	<requiredpackages>
+		<requiredpackage minversion="1.1.*">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="3.*">com.woltlab.wbb</requiredpackage>
+		<requiredpackage minversion="1.1.*">com.woltlab.wcf.data.message.pm</requiredpackage>
+		<requiredpackage minversion="1.1.*">com.woltlab.wcf.form.user</requiredpackage>
+		<requiredpackage minversion="1.1.*">com.woltlab.wcf.data.help</requiredpackage>
+		<requiredpackage minversion="1.1.*">com.woltlab.wcf.form.message</requiredpackage>
+		<requiredpackage minversion="1.0.*">com.woltlab.wcf.message.sidebar</requiredpackage>
+		<requiredpackage minversion="1.0.*">com.woltlab.wcf.tagging</requiredpackage>	
+	</requiredpackages>
+
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<sql>install.sql</sql>
+		<script>acp/install_business.php</script>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<options>options.xml</options>
+		<help>help.xml</help>
+		<taggable>taggable.xml</taggable>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<pagemenu>pagemenu.xml</pagemenu>
+		<warningobjecttype>warningobjecttype.xml</warningobjecttype>
+		<searchablemessagetypes>smt.xml</searchablemessagetypes>
+		<attachmentcontainertype>act.xml</attachmentcontainertype>
+		<languages languagecode="de">de.xml</languages>
+		<packageinstallationplugins>pip.tar</packageinstallationplugins>
+		<businessmenu>businessmenu.xml</businessmenu>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<pagelocation>pagelocation.xml</pagelocation>
+	</instructions>
+	
+	<instructions type="update" fromversion="0.2.3">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+</package>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/pageLocations.dtd">
+<data>	
+	<import>
+		<pagelocation name="wcf.usersOnline.location.businessIndex">
+			<pattern><![CDATA[index\.php\?page=Business.*]]></pattern>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessLinkCategory">
+			<pattern><![CDATA[index\.php\?page=BusinessCategory&.*categoryID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessCategoryLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessLinkAdd">
+			<pattern><![CDATA[index\.php\?form=BusinessLinkAdd&.*categoryID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessCategoryLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessLinkEdit">
+			<pattern><![CDATA[index\.php\?form=BusinessLinkEdit&.*linkID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessLinkLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessLink">
+			<pattern><![CDATA[index\.php\?page=BusinessLink&.*linkID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessLinkLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessComments">
+			<pattern><![CDATA[index\.php\?page=BusinessCommentsList&.*linkID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessLinkLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessCommentAdd">
+			<pattern><![CDATA[index\.php\?form=BusinessCommentAdd&.*linkID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessLinkLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessLinkReport">
+			<pattern><![CDATA[index\.php\?form=BusinessLinkReport&.*linkID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessLinkLocation.class.php</classpath>
+		</pagelocation>
+		<pagelocation name="wcf.usersOnline.location.businessLinkVisit">
+			<pattern><![CDATA[index\.php\?page=BusinessLinkVisit&.*linkID=(\d+)]]></pattern>
+			<classpath>lib/data/page/location/BusinessLinkLocation.class.php</classpath>
+		</pagelocation>
+	</import>
+</data>
