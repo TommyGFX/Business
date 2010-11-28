@@ -31,6 +31,7 @@ class BusinessLinkAddForm extends MessageForm {
 	public $tags = '';
 	public $shortDescription = '';
 	public $url = '';
+	public $ort = '';
 	public $username;
 	public $kind = '';
 	public $age = 0;
@@ -90,6 +91,7 @@ class BusinessLinkAddForm extends MessageForm {
 		
 		if (isset($_POST['tags'])) $this->tags = StringUtil::trim($_POST['tags']);
 		if (isset($_POST['url'])) $this->url = StringUtil::trim($_POST['url']);
+		if (isset($_POST['ort'])) $this->ort = StringUtil::trim($_POST['ort']);
 		if (isset($_POST['kind'])) $this->kind = StringUtil::trim($_POST['kind']);
 		if (isset($_POST['username'])) $this->username = StringUtil::trim($_POST['username']);
 		if (isset($_POST['preview'])) $this->preview = (boolean) $_POST['preview'];
@@ -184,7 +186,7 @@ class BusinessLinkAddForm extends MessageForm {
 		parent::save();
 		
 		// save link
-		$link = BusinessEditor::create($this->categoryID, $this->subject, $this->text, $this->shortDescription, $this->url, $this->kind, (BUSINESS_LINK_ENABLE_AGE ? $this->age : 0), $this->languageID, $this->isSticky, $this->getOptions(), $this->username, intval(!$this->category->getPermission('canAddLinkWithoutModeration')), ($this->category->getPermission('canAddLinkWithoutModeration') ? 3 : 1), $this->attachmentListEditor);
+		$link = BusinessEditor::create($this->categoryID, $this->subject, $this->ort, $this->text, $this->shortDescription, $this->url, $this->kind, (BUSINESS_LINK_ENABLE_AGE ? $this->age : 0), $this->languageID, $this->isSticky, $this->getOptions(), $this->username, intval(!$this->category->getPermission('canAddLinkWithoutModeration')), ($this->category->getPermission('canAddLinkWithoutModeration') ? 3 : 1), $this->attachmentListEditor);
 		$this->saved();
 		
 		// clear statistics cache
@@ -243,6 +245,7 @@ class BusinessLinkAddForm extends MessageForm {
 			'kinds' => $this->kinds,
 			'kind' => $this->kind,
 			'url' => $this->url,
+			'ort' => $this->ort,
 			'age' => $this->age,
 			'languageID' => $this->languageID,
 			'isSticky' => $this->isSticky,

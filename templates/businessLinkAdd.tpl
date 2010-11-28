@@ -128,6 +128,20 @@
 					</div>
 				</div>
 
+				<div class="formElement{if $errorField == 'ort'} formError{/if}">
+					<div class="formFieldLabel">
+						<label for="ort">{lang}wcf.business.link.add.ort{/lang}</label>
+					</div>
+					<div class="formField">
+						<input type="text" class="inputText" name="ort" id="subject" value="{$ort}" tabindex="{counter name='tabindex'}" />
+						{if $errorField == 'ort'}
+							<p class="innerError">
+								{if $errorType == 'empty'}{lang}wcf.global.error.empty{/lang}{/if}
+							</p>
+						{/if}
+					</div>
+				</div>
+
 				<div class="formElement{if $errorField == 'url'} formError{/if}">
 					<div class="formFieldLabel">
 						<label for="url">{lang}wcf.business.link.add.url{/lang}</label>

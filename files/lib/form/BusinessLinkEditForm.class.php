@@ -78,6 +78,7 @@ class BusinessLinkEditForm extends BusinessLinkAddForm {
 			'message' => $this->text,
 			'shortDescription' => $this->shortDescription,
 			'url' => $this->url,
+			'ort' => $this->ort,
 			'kind' => $this->kind,
 			'age' => $this->age,
 			'languageID' => $this->languageID,
@@ -140,6 +141,7 @@ class BusinessLinkEditForm extends BusinessLinkAddForm {
 			$this->subject = $this->link->subject;
 			$this->text = $this->link->message;
 			$this->url = $this->link->url;
+			$this->ort = $this->link->ort;
 			$this->kind = $this->link->kind;
 			$this->shortDescription = $this->link->shortDescription;
 			$this->age = $this->link->age;

@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename>Business Database</packagename>
 		<packagedescription>Dieses Plugin stellt Ihnen und Ihren Mitgliedern eine umfassende Business Database mit vielen Funktionen zur Verfügung.</packagedescription>
-		<version>0.2.4</version>
+		<version>0.2.5</version>
 		<date>2010-11-25</date>
 		<plugin>com.woltlab.wcf</plugin>
 		<standalone>0</standalone>
@@ -24,6 +24,7 @@
 		<requiredpackage minversion="1.1.*">com.woltlab.wcf.form.message</requiredpackage>
 		<requiredpackage minversion="1.0.*">com.woltlab.wcf.message.sidebar</requiredpackage>
 		<requiredpackage minversion="1.0.*">com.woltlab.wcf.tagging</requiredpackage>	
+		<requiredpackage minversion="1.0.*">com.woltlab.wcf.data.gmap</requiredpackage>	
 	</requiredpackages>
 
 	
@@ -49,7 +50,7 @@
 		<pagelocation>pagelocation.xml</pagelocation>
 	</instructions>
 	
-	<instructions type="update" fromversion="0.2.3">
+	<instructions type="update" fromversion="0.2.4">
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
 		<eventlistener>eventlistener.xml</eventlistener>

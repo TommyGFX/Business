@@ -92,7 +92,7 @@
 												<img src="{icon}{@$link->getIconName()}M.png{/icon}" alt=""{if $this->user->getPermission('mod.business.canEnableLinks') || $this->user->getPermission('mod.business.canEditLinks')} id="moderatorOptions{@$link->linkID}" class="pointer"{/if} />
 											</div>
 											<div class="containerContent">
-												<h4>{if $this->user->getPermission('mod.business.canEnableLinks')}<span class="prefix"><strong>[{lang}wcf.business.link.status{$link->status}{/lang}]</strong></span>{/if} <a href="index.php?page=BusinessLink&amp;linkID={@$link->linkID}{@SID_ARG_2ND}">{$link->subject}</a></h4>
+												<h4>{if $this->user->getPermission('mod.business.canEnableLinks')}<span class="prefix"><strong>[{lang}wcf.business.link.status{$link->status}{/lang}]</strong></span>{/if} {if $link->kind}<span class="prefix">{$link->kind}</span>{/if} <a href="index.php?page=BusinessLink&amp;linkID={@$link->linkID}{@SID_ARG_2ND}">{$link->subject}</a></h4>
 											</div>
 											{if $this->user->getPermission('mod.business.canEnableLinks') || $this->user->getPermission('mod.business.canEditLinks')}
 												{assign var="linkID" value=$link->linkID}
@@ -115,12 +115,6 @@
 											<p class="formFieldLabel">{lang}wcf.business.link.hits{/lang}</p>
 											<p class="formField">{@$link->hits}</p>
 										</div>
-										{if $link->kind}
-											<div class="formElement">
-												<p class="formFieldLabel">{lang}wcf.business.link.add.kind{/lang}</p>
-												<p class="formField">{$link->kind}</p>
-											</div>
-										{/if}
 									
 									</div>
 									<div class="messageFooter">

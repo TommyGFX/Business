@@ -33,6 +33,7 @@ class BusinessLinkPage extends AbstractPage {
 	 * @var ViewableBusinessLink
 	 */
 	public $link = null;
+	public $location = null;
 	
 	/**
 	 * contains link tags
@@ -151,9 +152,8 @@ class BusinessLinkPage extends AbstractPage {
 				MessageAttachmentList::removeEmbeddedAttachments($this->attachments);
 			}
 		}
-
 	}
-	
+
 	/**
 	* @see Page::assignVariables();
 	*/
@@ -169,6 +169,9 @@ class BusinessLinkPage extends AbstractPage {
 			'tags' => (MODULE_TAGGING ? $this->link->getTags(WCF::getSession()->getVisibleLanguageIDArray()) : array()),
 			'generalSelection' => $this->generalSelection,
 			'allowSpidersToIndexThisPage' => true,
+			'ort' => $this->link->ort,
+			'businessMapLocation' => $this->link->ort,
+			'businessMapLocationu' => WCF::getUser()->location,
 			'attachments' => $this->attachments
 		));
 	}

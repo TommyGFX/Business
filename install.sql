@@ -50,6 +50,7 @@ CREATE TABLE wcf1_business_link (
 	linkID int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	categoryID int(10) NOT NULL default '0',
 	subject VARCHAR(255) NOT NULL DEFAULT '',
+	ort VARCHAR(255) NOT NULL default '',
 	isDisabled tinyint(1) NOT NULL default '0',
 	status tinyint(1) NOT NULL default '0',
 	statusComment text NOT NULL,

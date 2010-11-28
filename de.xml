@@ -94,7 +94,9 @@
 		<item name="wcf.business.link.add.general"><![CDATA[Allgemeine Angaben]]></item>
 		<item name="wcf.business.link.add.subject"><![CDATA[Titel des Einrags]]></item>
 		<item name="wcf.business.link.add.url"><![CDATA[Adresse des Eintrags]]></item>
-		<item name="wcf.business.link.add.url.description"><![CDATA[Geben Sie hier die Adresse der Firma ein.]]></item>
+		<item name="wcf.business.link.add.ort"><![CDATA[Standort]]></item>
+		<item name="wcf.business.link.add.ort.description"><![CDATA[Geben Sie hier den Hauptsitz der Firma ein.]]></item>
+		<item name="wcf.business.link.add.url.description"><![CDATA[Geben Sie hier die Web-Adresse der Firma ein.]]></item>
 		<item name="wcf.business.link.add.illegalURL"><![CDATA[Die angegebene Adresse ist ung&uuml;ltig.]]></item>
 		<item name="wcf.business.link.add.kind"><![CDATA[Art der Website]]></item>
 		<item name="wcf.business.link.add.age"><![CDATA[Altersfreigabe]]></item>
@@ -154,6 +156,7 @@
 		<item name="wcf.business.link.generalInformations"><![CDATA[Auswahlm&ouml;glichkeiten]]></item>
 		<item name="wcf.business.link.informations"><![CDATA[Informationen]]></item>
 		<item name="wcf.business.link.hits"><![CDATA[Aufrufe]]></item>
+		<item name="wcf.business.link.ort"><![CDATA[Standort]]></item>
 		<item name="wcf.business.link.time"><![CDATA[Hinzugef&uuml;gt]]></item>
 		<item name="wcf.business.link.directURL"><![CDATA[Direkt-URL]]></item>
 		<item name="wcf.business.link.age"><![CDATA[Altersfreigabe]]></item>

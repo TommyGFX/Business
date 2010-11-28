@@ -19,6 +19,7 @@ class BusinessEditor extends BusinessLink {
 	 * 
 	 * @param	integer				$categoryID
 	 * @param	string				$subject
+	 * @param	string				$ort
 	 * @param	string				$message
 	 * @param	string				$shortDescription
 	 * @param	string				$url
@@ -33,14 +34,14 @@ class BusinessEditor extends BusinessLink {
 	 * @param	MessageAttachmentListEditor	$attachmentList
 	 * @return	BusinessEditor
 	 */
-	public static function create($categoryID, $subject, $message, $shortDescription, $url, $kind, $age, $languageID, $isSticky, $options = array(), $username, $isDisabled, $status, $attachmentList = null) {
+	public static function create($categoryID, $subject, $ort, $message, $shortDescription, $url, $kind, $age, $languageID, $isSticky, $options = array(), $username, $isDisabled, $status, $attachmentList = null) {
 		// get number of attachments
 		$attachmentsAmount = ($attachmentList !== null ? count($attachmentList->getAttachments()) : 0);
 		
 		// save entry
 		$sql = "INSERT INTO	wcf".WCF_N."_business_link
-					(categoryID, subject, message, shortDescription, url, kind, age, languageID, isSticky, userID, username, isDisabled, status, time, lastChangeTime, attachments, enableSmilies, enableHtml, enableBBCodes)
-			VALUES		(".$categoryID.", '".escapeString($subject)."', '".escapeString($message)."', '".escapeString($shortDescription)."', '".escapeString($url)."', '".escapeString($kind)."', ".$age.", ".$languageID.", ".$isSticky.", ".WCF::getUser()->userID.", '".escapeString($username)."', ".$isDisabled.", ".$status.", ".TIME_NOW.", ".TIME_NOW.", ".$attachmentsAmount.",
+					(categoryID, subject, ort, message, shortDescription, url, kind, age, languageID, isSticky, userID, username, isDisabled, status, time, lastChangeTime, attachments, enableSmilies, enableHtml, enableBBCodes)
+			VALUES		(".$categoryID.", '".escapeString($subject)."', '".escapeString($ort)."', '".escapeString($message)."', '".escapeString($shortDescription)."', '".escapeString($url)."', '".escapeString($kind)."', ".$age.", ".$languageID.", ".$isSticky.", ".WCF::getUser()->userID.", '".escapeString($username)."', ".$isDisabled.", ".$status.", ".TIME_NOW.", ".TIME_NOW.", ".$attachmentsAmount.",
 					".(isset($options['enableSmilies']) ? $options['enableSmilies'] : 1).",
 					".(isset($options['enableHtml']) ? $options['enableHtml'] : 0).",
 					".(isset($options['enableBBCodes']) ? $options['enableBBCodes'] : 1).")";

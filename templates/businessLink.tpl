@@ -89,6 +89,10 @@
 						<p class="formField"><a href="index.php?page=BusinessLinkVisit&amp;linkID={@$linkID}" class="external">{$link->url}</a></p>
 					</div>
 					<div class="formElement">
+						<p class="formFieldLabel">{lang}wcf.business.link.ort{/lang}</p>
+						<p class="formField">{@$link->ort}</p>
+					</div>
+					<div class="formElement">
 						<p class="formFieldLabel">{lang}wcf.business.link.time{/lang}</p>
 						<p class="formField">{@$link->time|time}</p>
 					</div>
@@ -224,7 +228,7 @@
 
 				<div class="container-3 column second sidebar profileSidebar">
 					<div class="columnInner">
-{if $additionalContent1|isset}{@$additionalContent1}{/if}
+						{include file='businessMap'}
 						{include file='businessLinkGeneralSelection'}
 						{include file='businessLinkTagsList'}
 					</div>
