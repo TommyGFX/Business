@@ -29,15 +29,5 @@
 			<link>index.php?action=BusinessCategoriesLinksUpdater</link>
 			<icon>icon/businessCategoryLinksUpdaterM.png</icon>
 		</acpmenuitem>
-		
-		<acpmenuitem name="wcf.acp.menu.link.content.business.export">
-			<parent>wcf.acp.menu.link.content.business</parent>
-			<showorder>3</showorder>
-		</acpmenuitem>
-		
-		<acpmenuitem name="wcf.acp.menu.link.content.business.exportAll">
-			<parent>wcf.acp.menu.link.content.business.export</parent>
-			<link>index.php?action=BusinessExport</link>
-		</acpmenuitem>
 	</import>
 </data>

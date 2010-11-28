@@ -54,7 +54,21 @@ time:wcf.business.category.sortBy.time]]></selectoptions>
 DESC:wcf.global.sortOrder.descending]]></selectoptions>
 			</option>
 			<!-- /category options -->
-			
+
+
+			<!-- general business screenshot -->
+			<option name="business_link_enable_link_screenshot">
+				<categoryname>business.categories</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="business_link_screenshot_service">
+				<categoryname>business.links</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>fadeout
+websnapr</defaultvalue>
+			</option>
+
 			<!-- general business options -->
 			<option name="business_link_kinds">
 				<categoryname>business.links</categoryname>
