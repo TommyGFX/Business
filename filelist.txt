@@ -1,3 +1,4 @@
 *.tar
 *.xml
 *.sql
+requirements/com.woltlab.wcf.data.gmap.tar.gz
