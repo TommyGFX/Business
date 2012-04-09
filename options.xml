@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			
+			<category name="business"></category>
+			
+			<category name="business.links">
+				<parent>business</parent>
+			</category>
+			<category name="business.categories">
+				<parent>business</parent>
+			</category>
+			
+		</categories>
+		
+		<options>
+			<!-- module options -->
+			<option name="module_business">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			
+			<!-- category options -->
+			<option name="business_category_links_per_page">
+				<categoryname>business.categories</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>10</defaultvalue>
+			</option>
+			<option name="business_category_show_category_description">
+				<categoryname>business.categories</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="business_category_default_sort_field">
+				<categoryname>business.categories</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>lastChangeTime</defaultvalue>
+				<selectoptions><![CDATA[subject:wcf.business.category.sortBy.subject
+lastChangeTime:wcf.business.category.sortBy.lastChangeTime
+hits:wcf.business.category.sortBy.hits
+rating:wcf.business.category.sortBy.rating
+languageID:wcf.business.category.sortBy.language
+comments:wcf.business.category.sortBy.comments
+time:wcf.business.category.sortBy.time]]></selectoptions>
+			</option>
+			<option name="business_category_default_sort_order">
+				<categoryname>business.categories</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>DESC</defaultvalue>
+				<selectoptions><![CDATA[ASC:wcf.global.sortOrder.ascending
+DESC:wcf.global.sortOrder.descending]]></selectoptions>
+			</option>
+			<!-- /category options -->
+
+
+			<!-- general business screenshot -->
+			<option name="business_link_enable_link_screenshot">
+				<categoryname>business.categories</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="business_link_screenshot_service">
+				<categoryname>business.links</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>fadeout
+websnapr</defaultvalue>
+			</option>
+
+			<!-- general business options -->
+			<option name="business_link_kinds">
+				<categoryname>business.links</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>Forum
+Private Homepage
+Geschäftliche Homepage
+Blog
+kommerzielle Website
+Sonstige</defaultvalue>
+			</option>
+			<option name="business_link_enable_age">
+				<categoryname>business.links</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="business_link_enable_rating">
+				<categoryname>business.links</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions><![CDATA[business_link_min_ratings]]></enableoptions>
+			</option>
+			<option name="business_link_min_ratings">
+				<categoryname>business.links</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="business_link_enable_moderation_note">
+				<categoryname>business.links</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="business_link_enable_comment_add_button">
+				<categoryname>business.links</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /general business options -->
+			
+			<option name="profile_show_last_business_links">
+				<categoryname>user.profile.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+		</options>
+	</import>
+	
+</data>

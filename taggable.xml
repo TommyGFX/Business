@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/taggable.dtd">
+<data>	
+	<import>
+		<taggable name="de.wcf.tommygfx.business">
+			<classpath>lib/data/business/TaggableBusinessLink.class.php</classpath>
+		</taggable>
+	</import>
+</data>

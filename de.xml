@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">	
+	<!-- wcf.acp.menu -->
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.business1"><![CDATA[Buisness Database]]></item>
+		<item name="wcf.acp.menu.link.content.business"><![CDATA[Kategorien]]></item>
+		<item name="wcf.acp.menu.link.content.business.categories"><![CDATA[Kategorien auflisten]]></item>
+		<item name="wcf.acp.menu.link.content.business.categoryAdd"><![CDATA[Kategorie hinzufügen]]></item>
+		<item name="wcf.acp.menu.link.content.business.categoriesUpdate"><![CDATA[Kategorien aktualisieren]]></item>
+	</category>
+	<!-- /wcf.acp.menu -->
+	
+	<!-- wcf.header.menu -->
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.business.links"><![CDATA[Firmen]]></item>
+	</category>
+	<!-- /wcf.header.menu -->
+	
+	<!-- wcf.tagging -->
+	<category name="wcf.tagging">
+		<item name="wcf.tagging.taggable.all.de.wcf.tommygfx.business"><![CDATA[Alles anzeigen]]></item>
+		<item name="wcf.tagging.taggable.de.wcf.tommygfx.business"><![CDATA[Firmen]]></item>
+	</category>
+	<!-- /wcf.tagging -->
+	
+	<!-- wcf.search -->
+	<category name="wcf.search">
+		<item name="wcf.search.type.businessLink"><![CDATA[Buisness Database]]></item>
+	</category>
+	<!-- /wcf.search -->
+	
+	<!-- wcf.help.item -->
+	<category name="wcf.help.item">
+		<item name="wcf.help.item.business"><![CDATA[Buisness Database]]></item>
+		<item name="wcf.help.item.business.description"><![CDATA[<p>Die Buisness Database bietet Ihnen umfangreiche M&ouml;glichkeiten, sich mit anderen Mitgliedern &uuml;ber verschiedene, andere Webseiten auszutauschen. Nachfolgend werden Ihnen die M&ouml;glichkeiten der Buisness Database erkl&auml;rt.</p>
+
+<h2 class="subHeadline">Referenzen</h2>
+<p class="helpImage border container-4"><img src="{@RELATIVE_WCF_DIR}images/help/helpbusiness1.png" alt="" /><span class="smallFont light">Buisness Database</span></p>
+<p>Wenn Sie die Buisness Database (Men&uuml;punkt: <a href="index.php?page=Business">Buisness Database</a>) aufrufen, werden Ihnen zun&auml;chst alle Kategorien aufgelistet. Unter dem jeweiligem Titel finden Sie auch eine Beschreibung zur Kategorie. Klicken Sie die Kategorie an, werden Ihnen alle, in dieser Kategorie vorhandenen Referenzen aufgelistet. Sie k&ouml;nnen am Seitenende selbst entscheiden, nach welchen Kriterien die Buisness Database sortiert werden sollen (Titel, Letzte &Auml;nderung, Aufrufe, Bewertung und Hinzugef&uuml;gt am). Sie k&ouml;nnen auch einen Tag anklicken, dann werden Ihnen alle Firmen angezeigt, die diesen Tag verwenden.</p>
+<p>Wenn Sie einen Eintrag hinzuf&uuml;gen, m&uuml;ssen Sie einen Titel, eine Web-Adresse, Ihre Sprache, eine Beschreibung und eine Kurzbeschreibung angeben. Sie k&ouml;nnen auch Tags angeben oder das Zugriffsalter begrenzen. Nach erfolgreichem Speichern gelangen Sie direkt zu Ihrem Eintrag. Es kann sein, dass dieser noch deaktivert ist und erst von einem Moderator &uuml;berpr&uuml;ft werden muss.</p>
+<p>Wenn Sie auf einen Eintrag zugreifen wollen, haben Sie verschiedene M&ouml;glichkeiten. Sie k&ouml;nnen einen Eintrag bewerten (Sterne mittig auf der Seite), einn Eintrag melden (Button links, &raquo;Eintrag melden&laquo;) oder einfach den Eintrag aufrufen. Wenn ein Eintrag gemeldet wurde m&uuml;ssen Sie zun&auml;chst best&auml;tigen, dass Sie zur Kentniss genommen haben, dass {PAGE_TITLE} keine Haftung &uuml;bernimmt.</p>
+
+<h2 class="subHeadline">Kommentare</h2>
+<p>Auch haben Sie die M&ouml;glichkeit, einen Eintrag zu kommentieren. Um die Kommentare eines Eintrags zu sehen, m&uuml;ssen sie bei einem Eintrag auf den Tab &raquo;Kommentare&laquo; klicken. Ihnen werden nun alle Kommentare dieses Eintrags aufgelistet.</p>
+<p>Wenn Sie einen Kommentar hinzuf&uuml;gen m&ouml;chten, m&uuml;ssen Sie auf einen der 2 Buttons bei der Kommentarauflistung klicken. Sie werden anschlie&szlig;end auf ein Formular weitergeleitet, wo Sie Ihren gew&uuml;nschten Text eingeben k&ouml;nnen. Sollte Ihnen den Button nicht angezeigt werden, so kann dies 2 Ursachen haben: Der Eintrag wurde von einem Moderator geschlossen oder Sie haben nicht die entsprechenden Rechte.</p>]]></item>
+	</category>
+	
+	<!-- wcf.usersOnline -->
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.businessIndex"><![CDATA[<a href="index.php?page=Business{SID_ARG_1ST}">Buisness Database</a>]]></item>
+		<item name="wcf.usersOnline.location.businessLinkCategory"><![CDATA[Buisness Database-Kategorie: &raquo;{$category}&laquo;]]></item>
+		<item name="wcf.usersOnline.location.businessLinkAdd"><![CDATA[Eintrag in Kategorie: &raquo;{$category}&laquo; hinzuf&uuml;gen]]></item>
+		<item name="wcf.usersOnline.location.businessLinkEdit"><![CDATA[Eintrag: &raquo;{$link}&laquo; bearbeiten]]></item>
+		<item name="wcf.usersOnline.location.businessLink"><![CDATA[Firma: &raquo;{$link}&laquo;]]></item>
+		<item name="wcf.usersOnline.location.businessComments"><![CDATA[Review des Eintrags: &raquo;{$link}&laquo; auflisten]]></item>
+		<item name="wcf.usersOnline.location.businessCommentAdd"><![CDATA[Review zum Eintrag: &raquo;{$link}&laquo; hinzuf&uuml;gen]]></item>
+		<item name="wcf.usersOnline.location.businessLinkReport"><![CDATA[Firma: &raquo;{$link}&laquo; melden]]></item>
+		<item name="wcf.usersOnline.location.businessLinkVisit"><![CDATA[Firma: &raquo;{$link}&laquo; besuchen]]></item>
+	</category>
+	<!-- /wcf.usersOnline -->
+	
+	<!-- wcf.business -->
+	<category name="wcf.business">
+		<!-- general -->
+		<item name="wcf.business.links"><![CDATA[Buisness Database]]></item>
+		<item name="wcf.business.links.description"><![CDATA[Sie suchen nach neuen Shops oder wollen ihre Firma vorstellen? Hier haben Sie die M&ouml;glichkeit.]]></item>
+		<item name="wcf.business.links.moderationNote"><![CDATA[Auszug aus der Moderation:]]></item>
+		<item name="wcf.business.links.reportedLinks"><![CDATA[<a href="index.php?page=BusinessModeration">{@$reportedLinks} Eintrag</a> wurden gemeldet.]]></item>
+		<item name="wcf.business.links.reportedLink"><![CDATA[<a href="index.php?page=BusinessModeration">1 Eintrag</a> wurde gemeldet.]]></item>
+		<item name="wcf.business.links.disabledLinks"><![CDATA[<a href="index.php?page=BusinessModeration">1 Eintrag</a> ist deaktiviert.]]></item>
+		<item name="wcf.business.links.disabledLink"><![CDATA[<a href="index.php?page=BusinessModeration">{@$disabledLinks} Eintrag</a> sind deaktiviert.]]></item>
+		<item name="wcf.business.statistics"><![CDATA[Statistik]]></item>
+		<item name="wcf.business.statistics.details"><![CDATA[Es gibt in {#$statistics.categories} {if $statistics.categories == 1}Kategorie{else}Kategorien{/if} mit insgesamt {#$statistics.links} {if $statistics.links == 1}Firma{else}Firmen{/if}, {if $statistics.links == 1}der{else}die{/if} bisher {#$statistics.visits} Mal  besucht und {#$statistics.comments} Mal ein Review erhalten haben.]]></item>
+		<item name="wcf.business.links.copyright"><![CDATA[<a href="http://www.tommygfx-design.de"><strong>Buisness Database</strong> entwickelt von <strong>TommyGFX-Design.de</strong></a>]]></item>
+		<item name="wcf.business.category.description"><![CDATA[{#$links|count} {if $links|count == 1}Firma{else}Firmen{/if}]]></item>
+		<item name="wcf.business.category.noLinks"><![CDATA[In dieser Kategorie ist noch kein Eintrag vorhanden.]]></item>
+		<item name="wcf.business.category.sort"><![CDATA[Sortierung]]></item>
+		<item name="wcf.business.category.sort.description"><![CDATA[Reihenfolge der Auflistung &auml;ndern.]]></item>
+		<item name="wcf.business.category.sortBy.subject"><![CDATA[Titel]]></item>
+		<item name="wcf.business.category.sortBy.lastChangeTime"><![CDATA[Letzte &Auml;nderung]]></item>
+		<item name="wcf.business.category.sortBy.hits"><![CDATA[Aufrufe]]></item>
+		<item name="wcf.business.category.sortBy.rating"><![CDATA[Bewertung]]></item>
+		<item name="wcf.business.category.sortBy.comments"><![CDATA[Reviews]]></item>
+		<item name="wcf.business.category.sortBy.language"><![CDATA[Sprache]]></item>
+		<item name="wcf.business.category.sortBy.time"><![CDATA[Hinzugef&uuml;gt am]]></item>
+		<!-- link add -->
+		<item name="wcf.business.link.add"><![CDATA[Eintrag hinzuf&uuml;gen]]></item>
+		<item name="wcf.business.link.edit"><![CDATA[&raquo;{$link->subject}&laquo; bearbeiten]]></item>
+		<item name="wcf.business.link.add.isSticky"><![CDATA[Wichtiger Eintrag]]></item>
+		<item name="wcf.business.link.add.stick"><![CDATA[Eintrag anpinnen]]></item>
+		<item name="wcf.business.link.add.isSticky0"><![CDATA[Normaler Eintrag]]></item>
+		<item name="wcf.business.link.add.isSticky1"><![CDATA[Wichtiger Eintrag]]></item>
+		<item name="wcf.business.link.add.general"><![CDATA[Allgemeine Angaben]]></item>
+		<item name="wcf.business.link.add.subject"><![CDATA[Titel des Einrags]]></item>
+		<item name="wcf.business.link.add.url"><![CDATA[Adresse des Eintrags]]></item>
+		<item name="wcf.business.link.add.ort"><![CDATA[Standort]]></item>
+		<item name="wcf.business.link.add.ort.description"><![CDATA[Geben Sie hier den Hauptsitz der Firma ein.]]></item>
+		<item name="wcf.business.link.add.url.description"><![CDATA[Geben Sie hier die Web-Adresse der Firma ein.]]></item>
+		<item name="wcf.business.link.add.illegalURL"><![CDATA[Die angegebene Web-Adresse ist ung&uuml;ltig.]]></item>
+		<item name="wcf.business.link.add.kind"><![CDATA[Art der Website]]></item>
+		<item name="wcf.business.link.add.age"><![CDATA[Altersfreigabe]]></item>
+		<item name="wcf.business.link.add.age.description"><![CDATA[Wenn dieser Eintrag nicht f&uuml;r alle Mitglieder zu betreten ist k&ouml;nnen Sie hier ausw&auml;hlen, f&uuml;r welche Mitglieder dieser Eintrag zug&auml;nglich ist.]]></item>
+		<item name="wcf.business.link.add.age0"><![CDATA[f&uuml;r jeden Freigeben]]></item>
+		<item name="wcf.business.link.add.age14"><![CDATA[Freigabe ab 14]]></item>
+		<item name="wcf.business.link.add.age18"><![CDATA[Freigabe ab 18]]></item>
+		<item name="wcf.business.link.shortDescription"><![CDATA[Kurzbeschreibung]]></item>
+		<item name="wcf.business.link.message"><![CDATA[Beschreibung des Eintrags]]></item>
+		<item name="wcf.business.link.add.success"><![CDATA[Ihr Eintrag wurde erfolgreich hinzugef&uuml;gt. Er wird in den n&auml;chsten Stunden von einem Moderator &uuml;berpr&uuml;ft werden.]]></item>
+		<item name="wcf.business.link.edit.success"><![CDATA[Ihr Eintrag wurde erfolgreich bearbeitet. Er bleibt bis zu einer erneuten Pr&uuml;fung durch einen Moderator deaktiviert.]]></item>
+
+		<!-- Overview of a link -->
+		<item name="wcf.business.link.status1"><![CDATA[unbearbeitet]]></item>
+		<item name="wcf.business.link.status1.description"><![CDATA[{if $link->userID == $this->user->userID}Ihr{else}Dieser{/if} Eintrag ist bis zur erfolgreichen Kontrolle durch einen Moderator deaktiviert.]]></item>
+		<item name="wcf.business.link.status2"><![CDATA[in Pr&uuml;fung]]></item>
+		<item name="wcf.business.link.status2.description"><![CDATA[{if $link->userID == $this->user->userID}Ihr{else}Dieser{/if} Eintrag befindet sich zur Zeit in Pr&uuml;fung durch einen Moderator. Er ist bis zur erfolgreichen Pr&uuml;fung deaktivert.]]></item>
+		<item name="wcf.business.statusEdit2.pm.subject"><![CDATA[Ihr Eintrag befindet sich im Moment in der Prüfungsphase.]]></item>
+		<item name="wcf.business.statusEdit2.pm.message"><![CDATA[Hallo {$linkUsername},
+		
+		[url={$link}]Ihr Eintrag[/url] ({$linkSubject}) wurde soeben von {$workerUsername} in die Prüf-Phase übernommen.
+		Folgender Kommentar wurde abgegeben:
+		----------------------------
+		{$statusComment}
+		----------------------------
+		
+		Mit freundlichen Grüßen,
+		Ihr {$pageTitle} Team]]></item>
+		<item name="wcf.business.link.status3"><![CDATA[Freigeschaltet]]></item>
+		<item name="wcf.business.link.status3.description"><![CDATA[]]></item>
+		<item name="wcf.business.statusEdit3.pm.subject"><![CDATA[Ihr Eintrag wurde freigeschaltet.]]></item>
+		<item name="wcf.business.statusEdit3.pm.message"><![CDATA[Hallo {$linkUsername},
+		
+		[url={$link}]Ihr Eintrag[/url] ({$linkSubject}) wurde soeben von {$workerUsername} freigeschaltet. Er ist ab Sofort für alle Mitglieder frei zugänglich. 
+		Folgender Kommentar wurde abgegeben:
+		----------------------------
+		{$statusComment}
+		----------------------------
+		
+		Mit freundlichen Grüßen,
+		Ihr {$pageTitle} Team]]></item>
+		<item name="wcf.business.link.status4"><![CDATA[Abgelehnt]]></item>
+		<item name="wcf.business.link.status4.description"><![CDATA[{if $link->userID == $this->user->userID}Ihr{else}Dieser{/if} Eintrag wurde von einem Moderator abgelehnt. Er bleibt deshalb bis zu einer m&ouml;glichen Korrektur deaktivert.]]></item>
+		<item name="wcf.business.statusEdit4.pm.subject"><![CDATA[Die Freischaltung Ihres Eintrags wurde abgelehnt.]]></item>
+		<item name="wcf.business.statusEdit4.pm.message"><![CDATA[Hallo {$linkUsername},
+		
+		[url={$link}]Ihr Eintrag[/url] ({$linkSubject}) wurde soeben von {$workerUsername} aus folgendem Grund zur Freischaltung abgelehnt:
+		----------------------------
+		{$statusComment}
+		----------------------------
+		
+		Mit freundlichen Grüßen,
+		Ihr {$pageTitle} Team]]></item>
+		<item name="wcf.business.link.statusComment.short"><![CDATA[Review]]></item>
+		<item name="wcf.business.link.notInThisLanguage"><![CDATA[Dieser Eintrag bzw. die Beschreibung des Eintrags ist in Ihrer Sprache leider nicht verf&uuml;gbar. F&uuml;r weitere Fragen k&ouml;nnen Sie sich an den <a href="index.php?form=PMNew&amp;userID={$link->userID}"><img src="{icon}pmEmptyS.png{/icon}" alt="" /> Eintragsersteller</a> wenden.]]></item>
+		<item name="wcf.business.link.authorInfo"><![CDATA[Benutzer]]></item>
+		<item name="wcf.business.link.generalInformations"><![CDATA[Auswahlm&ouml;glichkeiten]]></item>
+		<item name="wcf.business.link.informations"><![CDATA[Informationen]]></item>
+		<item name="wcf.business.link.hits"><![CDATA[Aufrufe]]></item>
+		<item name="wcf.business.link.ort"><![CDATA[Standort]]></item>
+		<item name="wcf.business.link.time"><![CDATA[Hinzugef&uuml;gt]]></item>
+		<item name="wcf.business.link.directURL"><![CDATA[Direkt-URL]]></item>
+		<item name="wcf.business.link.age"><![CDATA[Altersfreigabe]]></item>
+		<item name="wcf.business.link.statuEdit"><![CDATA[Status bearbeiten]]></item>
+		<item name="wcf.business.link.status"><![CDATA[Status]]></item>
+		<item name="wcf.business.link.statusComment"><![CDATA[Status-Kommentar]]></item>
+		<item name="wcf.business.link.notificationViaPN"><![CDATA[Benachrichtigung per PN]]></item>
+		<item name="wcf.business.link.notificationViaPN.description"><![CDATA[Wollen Sie, dass der Eintragsersteller (<strong>{$link->username}</strong>) per Privater Nachricht benachrichtigt werden soll, dass Sie den Status des Eintrags ver&auml;ndert haben?]]></item>
+		<item name="wcf.business.link.isYoungerThanAge"><![CDATA[Sie k&ouml;nnen auf diesen Eintrag leider nicht zugreifen, da Sie noch nicht das vorgegebene Mindestalter erreicht haben.]]></item>
+		<item name="wcf.business.link.visit"><![CDATA[Aufrufen]]></item>
+		<item name="wcf.business.link.visit.description"><![CDATA[Eintrag besuchen]]></item>
+		<item name="wcf.business.link.report"><![CDATA[Melden]]></item>
+		<item name="wcf.business.link.report.description"><![CDATA[Eintrag melden]]></item>
+		<item name="wcf.business.link.changeStatus"><![CDATA[Status &auml;ndern]]></item>
+		<item name="wcf.business.link.by"><![CDATA[Von]]></item>
+		<item name="wcf.business.link.delete"><![CDATA[Eintrag l&ouml;schen]]></item>
+		<item name="wcf.business.link.delete.sure"><![CDATA[Sind Sie sich sicher, dass Sie diesen Eintrag l&ouml;schen wollen?]]></item>
+		<item name="wcf.business.link.linkEdit"><![CDATA[Eintrag bearbeiten]]></item>
+		<item name="wcf.business.link.ratingEnable"><![CDATA[Bewertung aktivieren]]></item>
+		<item name="wcf.business.link.ratingDisable"><![CDATA[Bewertung deaktivieren]]></item>
+		<item name="wcf.business.link.open"><![CDATA[Eintrag &ouml;ffnen]]></item>
+		<item name="wcf.business.link.close"><![CDATA[Eintrag schlie&szlig;en]]></item>
+		<item name="wcf.business.link.resticky"><![CDATA[Eintrag oben abl&ouml;sen]]></item>
+		<item name="wcf.business.link.sticky"><![CDATA[Eintrag oben anheften]]></item>		
+		<item name="wcf.business.link.search.query"><![CDATA[Firmen durchsuchen]]></item>
+		
+		<item name="wcf.business.link.move"><![CDATA[Verschieben]]></item>
+		<item name="wcf.business.link.move.pageTitle"><![CDATA[Eintrag verschieben]]></item>
+		<item name="wcf.business.link.move.title"><![CDATA[Eintrag &raquo;{$link->subject}&laquo; verschieben]]></item>
+		<item name="wcf.business.link.move.category"><![CDATA[Kategorie]]></item>
+		<item name="wcf.business.link.move.illegalCategory"><![CDATA[Sie haben eine ung&uuml;ltige Kategorie ausgew&auml;hlt.]]></item>
+		
+		<item name="wcf.business.moderation.pageTitle"><![CDATA[Moderation]]></item>
+		<item name="wcf.business.moderation.pageTitle.description"><![CDATA[Verwalten Sie hier die Buisness Database.]]></item>
+		<item name="wcf.business.moderation.reportedLinks"><![CDATA[Gemeldete Firmen]]></item>
+		<item name="wcf.business.moderation.disabledLinks"><![CDATA[Deaktivierte Firmen]]></item>
+		<item name="wcf.business.moderation.reportedBy"><![CDATA[Gemeldet von]]></item>
+		<item name="wcf.business.moderation.report.delete"><![CDATA[Meldung l&ouml;schen]]></item>
+		<item name="wcf.business.moderation.report.delete.sure"><![CDATA[Sind Sie sich sicher, dass Sie diese Meldung l&ouml;schen wollen?]]></item>
+		<item name="wcf.business.moderation.currentStatus"><![CDATA[Aktueller Status]]></item>
+		<item name="wcf.business.moderation.noReports"><![CDATA[Es sind aktuell keine gemeldeten Firmen vorhanden.]]></item>
+		<item name="wcf.business.moderation.noDisabledLinks"><![CDATA[Es sind aktuell keine deaktivierten Firmen vorhanden.]]></item>
+		
+		<item name="wcf.business.comment.commentsList"><![CDATA[Reviews auflisten]]></item>
+		<item name="wcf.business.comment.linkIsClosed"><![CDATA[Dieser Eintrag wurde geschlossen. {if !$this->user->getPermission('mod.business.canEditComments')}Sie k&ouml;nnen keine neuen Reviews hinzuf&uuml;gen oder Ihre eigenen Reviews bearbeiten.{else}Es ist nur Moderatoren erlaubt Reviews hinzuzuf&uuml;gen.{/if}]]></item>
+		<item name="wcf.business.comment.noComments"><![CDATA[Zu diesem Eintrag sind keine Reviews vorhanden. {if $link->isCommentable()}Sie k&ouml;nnen ein <a href="index.php?form=BusinessCommentAdd&amp;linkID={@$linkID}">Review</a> hinzuf&uuml;gen.{/if}]]></item>
+		<item name="wcf.business.comment.comments"><![CDATA[Reviews]]></item>
+		<item name="wcf.business.comment.commentAdd"><![CDATA[Review hinzuf&uuml;gen]]></item>
+		<item name="wcf.business.comment.general"><![CDATA[Allgemeine Angaben]]></item>
+		<item name="wcf.business.comment.generalInformations"><![CDATA[Allgemeine Angaben]]></item>
+		<item name="wcf.business.comment.message"><![CDATA[Nachricht]]></item>
+		<item name="wcf.business.comment.commentEdit"><![CDATA[Review bearbeiten]]></item>
+		<item name="wcf.business.comment.commentDelete"><![CDATA[Review l&ouml;schen]]></item>
+		<item name="wcf.business.comment.deleteSure"><![CDATA[Sind Sie sich sicher, dass Sie diesen Review l&ouml;schen wollen?]]></item>
+		
+		<!-- report link -->
+		<item name="wcf.business.report.pageTitle"><![CDATA[Eintrag &raquo;{$link->subject}&laquo; melden]]></item>
+		<item name="wcf.business.report.pageTitle.description"><![CDATA[Sie k&ouml;nnen hier den Eintrag &raquo;{$link->subject}&laquo; einem Moderator melden.]]></item>
+		<item name="wcf.business.report.reason"><![CDATA[]]></item>
+		<item name="wcf.business.report.reason.description"><![CDATA[Bitte beachten Sie, dass diese Funktion ausschlie&szlig;lich daf&uuml;r gedacht ist, Firmen zu melden die nicht den Regeln der Buisness Database entsprechen oder Spam, Werbung, rassistische, gewaltverherrlichende, agressive, beleidigende oder pornografische Inhalte beinhalten.]]></item>
+		<item name="wcf.business.report.wasAlreadyReported"><![CDATA[Dieser Eintrag wurde bereits gemeldet. Er wird in wenigen Stunden von einem Moderator &uuml;berpr&uuml;ft werden.]]></item>
+
+		<!-- visit link -->
+		<item name="wcf.business.visit.pageTitle"><![CDATA[Eintrag besuchen]]></item>
+		<item name="wcf.business.visist.reason"><![CDATA[<p>Sie wollen die Seite &raquo;<em>{$link->subject}</em>&laquo; besuchen. Diese Seite wurde allerdings von einem Benutzer gemeldet.</p>
+<br />
+<img src="{icon}businessLinkVisitWarningXXL.png{/icon}" alt="" style="float: right; margin-left: 10px" />
+<p>Beachten Sie deshalb bitte, dass &raquo;<a href="index.php?page=Index">{PAGE_TITLE}</a>&laquo; keinen Einfluss auf die Inhalte der folgenden Seite hat. Als der Eintrag hinzugef&uuml;gt wurde (<strong>{@$link->time|time}</strong>), wurde er auf m&ouml;gliche Rechtsverst&ouml;&szlig;e, Defekte oder unerw&uuml;nschte Inhalte &uuml;berpr&uuml;ft. Dabei wurden keinerlei strafbare Inhalte festegstellt. F&uuml;r die Inhalte der folgenden Seite haftet ausschlie&szlig;lich der Betreiber der Seite.</p>
+<br />
+<p>Dieser Link wird in den n&auml;chsten Stunden von einem Moderator &uuml;berpr&uuml;ft werden. Sollten sich m&ouml;gliche Rechtsverst&ouml;&szlig;e oder ein Defekt des Eintrags best&auml;tigen, werden entsprechende Aktionen (L&ouml;schung, Bearbeitung oder Deaktivierung des Eintrags) durchgef&uuml;hrt.</p>
+<br />
+<p>Es steht Ihnen nun frei, ob Sie die Seite besuchen wollen.</p>]]></item>
+		<item name="wcf.business.visit.back"><![CDATA[Zur&uuml;ck zum Eintrag]]></item>
+		
+		<!-- vote link -->
+		<item name="wcf.business.vote.description"><![CDATA[{$votes} Bewertung(en) - Durchschnitt: {$vote}]]></item>
+	</category>
+	<!-- /wcf.business -->
+	
+	<!-- wcf.attachment -->
+	<category name="wcf.attachment">
+		<item name="wcf.attachment.containerType.businessLink"><![CDATA[Eintrag]]></item>
+	</category>
+	
+	<!-- wcf.business.menu -->
+	<category name="wcf.business.menu">
+		<item name="wcf.business.menu.link.link"><![CDATA[Eintrag]]></item>
+		<item name="wcf.business.menu.link.comments"><![CDATA[Reviews]]></item>
+		<item name="wcf.business.menu.link.commentsList"><![CDATA[Reviews auflisten]]></item>
+		<item name="wcf.business.menu.link.commentAdd"><![CDATA[Review hinzufügen]]></item>
+	</category>
+	<!-- /wcf.business.menu -->
+	
+	<category name="wcf.business.acp">
+		<item name="wcf.business.acp.list.pageTitle"><![CDATA[Kategorien auflisten]]></item>
+		<item name="wcf.business.acp.list.successfulSorting"><![CDATA[Die Kategorien wurden erfolgreich sortiert.]]></item>
+		<item name="wcf.business.acp.list.update"><![CDATA[Alle Kategorien wurden soeben erfolgreich aktualisiert.]]></item>
+		<item name="wcf.business.acp.list.noCategories"><![CDATA[Es wurden noch keine Kategorien hinzugef&uuml;gt.]]></item>
+		<item name="wcf.business.acp.list.delete"><![CDATA[Kategorie l&ouml;schen]]></item>
+		<item name="wcf.business.acp.list.deleteSure"><![CDATA[Sind Sie sich sicher, dass Sie diese Kategorie l&ouml;schen wollen?]]></item>
+		<item name="wcf.business.acp.add.pageTitle"><![CDATA[Kategorie hinzuf&uuml;gen]]></item>
+		<item name="wcf.business.acp.add.success"><![CDATA[Die Kategorie wurde erfolgreich hinzugef&uuml;gt.]]></item>
+		<item name="wcf.business.acp.edit.pageTitle"><![CDATA[Kategorie bearbeiten]]></item>
+		<item name="wcf.business.acp.edit.success"><![CDATA[Die Kategorie &raquo;{$title}&laquo; wurde erfolgreich bearbeitet.]]></item>
+		<item name="wcf.business.acp.add.data"><![CDATA[Daten]]></item>
+		<item name="wcf.business.acp.add.title"><![CDATA[Titel]]></item>
+		<item name="wcf.business.acp.add.description"><![CDATA[Beschreibung]]></item>
+		<item name="wcf.business.acp.add.allowDescriptionHtml"><![CDATA[HTML in der Beschreibung erlauben]]></item>
+		<item name="wcf.business.acp.add.image"><![CDATA[Spezielles Kategorie-Bild]]></item>
+		<item name="wcf.business.acp.add.image.description"><![CDATA[Sie k&ouml;nnen hier ein spezielles Icon f&uuml;r diese Kategorie ausw&auml;hlen um f&uuml;r die n&ouml;tige Abwechslung zu sorgen. <strong>Zu beachten ist:</strong> Das Icon muss im wcf/ Ordner liegen und in den Gr&ouml;&szlig;en S (12x12), M (24x24), L (48x48) und XL (64x64) vorhanden sein. Au&szlig;erdem muss hier keine Dateiendung angegeben werden, geben Sie also, wenn sie z.B. das Icon &raquo;blumeXL.png&laquo; wollen <strong>nur &raquo;blume&laquo;</strong> ein.]]></item>
+		<item name="wcf.business.acp.add.moreDatas"><![CDATA[Weitere Daten]]></item>
+		<item name="wcf.business.acp.add.parentCategory"><![CDATA[&Uuml;bergeordnete Kategorie]]></item>
+		<item name="wcf.business.acp.add.parentCategory.description"><![CDATA[Sie k&ouml;nnen hier ausw&auml;hlen, ob diese Kategorie eine &uuml;bergeordnete Kategorie haben soll.]]></item>
+		<item name="wcf.business.acp.add.parentCategory.invalid"><![CDATA[Bitte w&auml;hlen Sie eine andere Kategorie aus. Die gew&auml;hlte ist unzul&auml;ssig.]]></item>
+		<item name="wcf.business.acp.add.position"><![CDATA[Reihenfolge]]></item>
+		<item name="wcf.business.acp.add.position.description"><![CDATA[Sie k&ouml;nnen hier angeben, nach welcher Reihenfolge diese Kategorie angezeigt werden soll.]]></item>
+		<item name="wcf.business.acp.add.groups"><![CDATA[Benutzergruppenrechte]]></item>
+		<item name="wcf.business.acp.add.permissions"><![CDATA[Zugriffsrechte f&uuml;r Benutzergruppen]]></item>
+		<item name="wcf.business.acp.add.permissions.title"><![CDATA[Gruppennamen]]></item>
+		<item name="wcf.business.acp.add.permissions.permissionsFor"><![CDATA[Berechtigungen für {$groupName}]]></item>
+		<item name="wcf.business.acp.add.permissions.fullControl"><![CDATA[Vollzugriff]]></item>
+		<item name="wcf.business.acp.add.permissions.deny"><![CDATA[Verweigern]]></item>
+		<item name="wcf.business.acp.add.permissions.allow"><![CDATA[Zulassen]]></item>
+		<!-- permissions --> 
+		<item name="wcf.business.acp.add.permissions.canViewCategory"><![CDATA[Kann Kategorie sehen]]></item>
+		<item name="wcf.business.acp.add.permissions.canEnterCategory"><![CDATA[Kann Kategorie betreten]]></item>
+		<item name="wcf.business.acp.add.permissions.canViewLink"><![CDATA[Kann Eintrag sehen]]></item>
+		<item name="wcf.business.acp.add.permissions.canEnterLink"><![CDATA[Kann Eintrag betreten]]></item>
+		<item name="wcf.business.acp.add.permissions.canAddLink"><![CDATA[Kann Eintrag hinzufügen]]></item>
+		<item name="wcf.business.acp.add.permissions.canAddLinkWithoutModeration"><![CDATA[Kann Eintrag ohne Moderation (Freischaltung) hinzufügen]]></item>
+		<item name="wcf.business.acp.add.permissions.canEditOwnLink"><![CDATA[Kann eigenen Eintrag bearbeiten]]></item>
+		<item name="wcf.business.acp.add.permissions.canDeleteOwnLink"><![CDATA[Kann eigenen Eintrag löschen]]></item>
+		<item name="wcf.business.acp.add.permissions.canRateLink"><![CDATA[Kann Eintrag bewerten]]></item>
+		<item name="wcf.business.acp.add.permissions.canReportLink"><![CDATA[Kann Eintrag melden]]></item>
+		<item name="wcf.business.acp.add.permissions.canVisitLink"><![CDATA[Kann Eintrag besuchen]]></item>
+		<item name="wcf.business.acp.add.permissions.canSeeComments"><![CDATA[Kann Reviews eines Eintrags sehen]]></item>
+		<item name="wcf.business.acp.add.permissions.canAddComment"><![CDATA[Kann Review zum Eintrag erstellen]]></item>
+		<item name="wcf.business.acp.add.permissions.canEditOwnComment"><![CDATA[Kann eigene Reviews bearbeiten]]></item>
+		<item name="wcf.business.acp.add.permissions.canUploadAttachment"><![CDATA[Kann Dateianhänge hochladen]]></item>
+		<item name="wcf.business.acp.add.permissions.canDownloadAttachment"><![CDATA[Kann Dateianhänge herunterladen]]></item>
+		<item name="wcf.business.acp.add.permissions.canViewAttachmentPreview"><![CDATA[Kann Dateianhangs-Vorschau sehen]]></item>
+		<!-- /permissions -->
+		<item name="wcf.business.acp.information.title"><![CDATA[]]></item>
+		<item name="wcf.business.acp.information"><![CDATA[]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_business"><![CDATA[Buisness Database (Firmenverzeichnis)]]></item>
+		<item name="wcf.acp.option.module_business.description"><![CDATA[Aktiviert die Buisness Database]]></item>
+		<item name="wcf.acp.option.category.business"><![CDATA[Buisness Database]]></item>
+		<item name="wcf.acp.option.category.business.description"><![CDATA[Verwalten Sie hier die Buisness Database.]]></item>
+		<item name="wcf.acp.option.category.business.links"><![CDATA[Eintrag]]></item>
+		<item name="wcf.acp.option.category.business.links.description" />
+		<item name="wcf.acp.option.category.business.categories"><![CDATA[Kategorien]]></item>
+		<item name="wcf.acp.option.category.business.categories.description" />
+		<item name="wcf.acp.option.business_link_kinds"><![CDATA[Eintragsarten]]></item>
+		<item name="wcf.acp.option.business_link_kinds.description"><![CDATA[Geben Sie hier verschiedene Arten von Webauftritten an, die der Benutzer beim Eintrag Hinzuf&uuml;gen ausw&auml;hlen kann.]]></item>
+		<item name="wcf.acp.option.business_link_enable_age"><![CDATA[Altersfreigabe aktivieren]]></item>
+		<item name="wcf.acp.option.business_link_enable_age.description"><![CDATA[Wollen Sie, dass Benutzer beim Hinzuf&uuml;gen eines Eintrags ausw&auml;hlen k&ouml;nnen, welche Benutzer ab welchem Alter diesen Eintrag sehen k&ouml;nnen?]]></item>
+		<item name="wcf.acp.option.business_link_enable_rating"><![CDATA[Bewertung aktivieren]]></item>
+		<item name="wcf.acp.option.business_link_enable_rating.description"><![CDATA[Wollen Sie, dass Eintrag bewertet werden k&ouml;nnen?]]></item>
+		<item name="wcf.acp.option.business_link_min_ratings"><![CDATA[Notwendige Bewertungen]]></item>
+		<item name="wcf.acp.option.business_link_min_ratings.description"><![CDATA[Geben Sie hier an wieviele Bewertungen mindestens ben&ouml;tigt werden, dass die Bewertung auch angezeigt wird.]]></item>
+		<item name="wcf.acp.option.business_link_enable_moderation_note"><![CDATA[&raquo;Auszug aus der Moderation&laquo; anzeigen]]></item>
+		<item name="wcf.acp.option.business_link_enable_moderation_note.description"><![CDATA[Soll die kleine &Uuml;bersicht &uuml;ber die Moderation auf der Buisness Database angezeigt werden?]]></item>
+		<item name="wcf.acp.option.business_link_enable_comment_add_button"><![CDATA[&raquo;Review hinzuf&uuml;gen&laquo;-Tab anzeigen]]></item>
+		<item name="wcf.acp.option.business_link_enable_comment_add_button.description"><![CDATA[Soll der Tab: &raquo;Eintrag hinzuf&uuml;gen&laquo; angezeigt werden?]]></item>
+		<item name="wcf.acp.option.business_link_enable_link_screenshot"><![CDATA[Automatische Screenshots anzeigen]]></item>
+		<item name="wcf.acp.option.business_link_enable_link_screenshot.description"><![CDATA[Soll automatisch zu jedem Eintrag ein kleines Vorschaubild angezeigt werden?]]></item>
+		<item name="wcf.acp.option.business_link_screenshot_service"><![CDATA[Screenshot-Dienst]]></item>
+		<item name="wcf.acp.option.business_link_screenshot_service.description"><![CDATA[Sie k&ouml;nnen hier zwischen verschiedenen Diensten ausw&auml;hlen, die die Screenshots erzeugen sollen. <strong>Bitte beachten Sie</strong>, dass ggf. ein Hinweis zu dem ausgew&auml;hlten Screenshot-Service im Footer der Buisness Database angezeigt wird.
+		<ul>
+			<li><a href="http://fadeout.de/">fadeout</a></li>
+			<li><a href="http://www.websnapr.com/de">websnapr</a></li>
+		</ul>]]></item>
+		
+		<item name="wcf.acp.option.profile_show_last_business_links"><![CDATA[Letzte 5 Eintraege eines Benutzers im Profil anzeigen]]></item>
+		<item name="wcf.acp.option.profile_show_last_business_links.description"><![CDATA[Aktiviert die Anzeige der letzten f&uuml;nf Eintrags eines Benutzers im Profil.]]></item>
+		
+		<item name="wcf.acp.option.business_category_links_per_page"><![CDATA[Eintraege pro Seite]]></item>
+		<item name="wcf.acp.option.business_category_links_per_page.description"><![CDATA[Geben Sie hier an, wieviele Eintraege auf einer Seite angezeigt werden sollen.]]></item>
+		<item name="wcf.acp.option.business_category_show_category_description"><![CDATA[Kategoriebeschreibung aktivieren]]></item>
+		<item name="wcf.acp.option.business_category_show_category_description.description"><![CDATA[Wollen Sie das die Beschreibung der Kategorien angezeigt werden sollen?]]></item>
+		<item name="wcf.acp.option.business_category_default_sort_field"><![CDATA[Sortierung]]></item>
+		<item name="wcf.acp.option.business_category_default_sort_field.description"><![CDATA[Sie k&ouml;nnen hier angeben, wonach Eintraege in Kategorien beim Betreten sortiert sein sollen (unabh&auml;ngig von der Sortierung &amp; Filterung).]]></item>
+		<item name="wcf.acp.option.business_category_default_sort_order"><![CDATA[Sortierungsreihenfolge]]></item>
+		<item name="wcf.acp.option.business_category_default_sort_order.description"><![CDATA[Sie k&ouml;nnen hier angeben in welcher Reihenfolge Eintraege in Kategorien beim Betreten sortiert sein sollen.]]></item>
+	</category>
+	
+	<!-- wcf.acp.group -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.business"><![CDATA[Eintraege]]></item>
+		<item name="wcf.acp.group.option.category.user.business.description" />
+		<item name="wcf.acp.group.option.category.user.business.links"><![CDATA[Eintraege]]></item>
+		<item name="wcf.acp.group.option.category.user.business.links.description" />
+		<item name="wcf.acp.group.option.category.user.business.comments"><![CDATA[Reviews]]></item>
+		<item name="wcf.acp.group.option.category.user.business.comments.description" />
+		
+		<item name="wcf.acp.group.option.category.mod.business"><![CDATA[Eintraege]]></item>
+		<item name="wcf.acp.group.option.category.mod.business.description" />
+		<item name="wcf.acp.group.option.category.mod.business.links"><![CDATA[Eintraege]]></item>
+		<item name="wcf.acp.group.option.category.mod.business.links.description" />
+		<item name="wcf.acp.group.option.category.mod.business.comments"><![CDATA[Reviews]]></item>
+		<item name="wcf.acp.group.option.category.mod.business.comments.description" />
+		<item name="wcf.acp.group.option.category.admin.business"><![CDATA[Buisness Database]]></item>
+		<item name="wcf.acp.group.option.category.admin.business.description" />
+		
+		<item name="wcf.acp.group.option.user.business.canViewBusiness"><![CDATA[Kann Buisness Database sehen]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewBusiness.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen die Buisness Database bzw. die &Uuml;bersicht der Eintraege sehen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewCategory"><![CDATA[Kann Kategorien sehen]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen einzelne Kategorien in der Kategorien&uuml;bersicht sehen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canEnterCategory"><![CDATA[Kann Kategorien betreten]]></item>
+		<item name="wcf.acp.group.option.user.business.canEnterCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen einzelne Kategorien betreten.]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewLink"><![CDATA[Kann Eintraege sehen]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen einzelne Eintraege sehen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canEnterLink"><![CDATA[Kann Eintraege betreten]]></item>
+		<item name="wcf.acp.group.option.user.business.canEnterLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen einzelne Eintraege betreten.]]></item>
+		<item name="wcf.acp.group.option.user.business.canAddLink"><![CDATA[Kann Eintraege hinzuf&uuml;gen]]></item>
+		<item name="wcf.acp.group.option.user.business.canAddLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege hinzuf&uuml;gen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canAddLinkWithoutModeration"><![CDATA[Kann Eintraege ohne Moderation hinzuf&uuml;gen]]></item>
+		<item name="wcf.acp.group.option.user.business.canAddLinkWithoutModeration.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege ohne eine Freischaltung durch einen Moderator hinzuf&uuml;gen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canEditOwnLink"><![CDATA[Kann eigene Eintraege bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.business.canEditOwnLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen ihre eigenen Eintraege bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.user.business.canVisitLink"><![CDATA[Kann Eintraege besuchen]]></item>
+		<item name="wcf.acp.group.option.user.business.canVisitLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege besuchen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canRateLink"><![CDATA[Kann Eintraege bewerten]]></item>
+		<item name="wcf.acp.group.option.user.business.canRateLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege bewerten (zu Beachten sind auch die Optionen).]]></item>
+		<item name="wcf.acp.group.option.user.business.canReportLink"><![CDATA[Kann Eintraege melden]]></item>
+		<item name="wcf.acp.group.option.user.business.canReportLink.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege melden.]]></item>
+
+		<item name="wcf.acp.group.option.category.user.business.attachments"><![CDATA[Dateianh&auml;nge]]></item>
+		<item name="wcf.acp.group.option.category.user.business.attachments.description" />
+		<item name="wcf.acp.group.option.user.business.canDownloadAttachment"><![CDATA[Kann Dateianh&auml;nge herunterladen]]></item>
+		<item name="wcf.acp.group.option.user.business.canDownloadAttachment.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Dateianh&auml;nge herunterladen bzw. betrachten.]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewAttachmentPreview"><![CDATA[Kann Dateianhangs-Vorschau sehen]]></item>
+		<item name="wcf.acp.group.option.user.business.canViewAttachmentPreview.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen die Vorschau von Dateianh&auml;ngen auf der Link-Seite sehen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canUploadAttachment"><![CDATA[Kann Dateianh&auml;nge hochladen]]></item>
+		<item name="wcf.acp.group.option.user.business.canUploadAttachment.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen eigene Dateianh&auml;nge hochladen.]]></item>
+		<item name="wcf.acp.group.option.user.business.maxAttachmentSize"><![CDATA[Maximale Dateianhangsgr&ouml;&szlig;e]]></item>
+		<item name="wcf.acp.group.option.user.business.maxAttachmentSize.description"><![CDATA[Geben Sie hier die maximale Gr&ouml;&szlig;e pro Dateianhang f&uuml;r Mitglieder dieser Benutzergruppe an.]]></item>
+		<item name="wcf.acp.group.option.user.business.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen]]></item>
+		<item name="wcf.acp.group.option.user.business.allowedAttachmentExtensions.description"><![CDATA[Geben Sie hier die erlaubten Dateiendungen f&uuml;r Mitglieder dieser Benutzergruppe an. Pro Zeile kann eine Endung eingegeben werden.]]></item>
+		<item name="wcf.acp.group.option.user.business.maxAttachmentCount"><![CDATA[Maximale Dateianh&auml;nge pro Eintrag]]></item>
+		<item name="wcf.acp.group.option.user.business.maxAttachmentCount.description"><![CDATA[Geben Sie hier die maximale Anzahl (pro Eintrag) von Dateianh&ouml;ngen f&uuml;r diese Benutzergruppe an.]]></item>
+		
+		<item name="wcf.acp.group.option.user.business.canSeeComments"><![CDATA[Kann Reviews sehen]]></item>
+		<item name="wcf.acp.group.option.user.business.canSeeComments.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen die Reviews eines Eintrags sehen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canAddComment"><![CDATA[Kann Review hinzuf&uuml;gen]]></item>
+		<item name="wcf.acp.group.option.user.business.canAddComment.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Reviews zu einem Eintrag hinzuf&uuml;gen.]]></item>
+		<item name="wcf.acp.group.option.user.business.canEditOwnComment"><![CDATA[Kann eigene Reviews bearbeiten]]></item>
+		<item name="wcf.acp.group.option.user.business.canEditOwnComment.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nenn eigene Reviews bearbeiten-]]></item>
+		<item name="wcf.acp.group.option.user.business.maxCommentLength"><![CDATA[Maximale L&auml;nge eines Reviews]]></item>
+		<item name="wcf.acp.group.option.user.business.maxCommentLength.description"><![CDATA[Geben Sie hier die Anzahl der Buchstaben ein, wie lange ein Review dieser Benutzergruppe maximal sein darf.]]></item>
+
+		<item name="wcf.acp.group.option.mod.business.canEnableLinks"><![CDATA[Kann Eintraege de-/aktivieren]]></item>
+		<item name="wcf.acp.group.option.mod.business.canEnableLinks.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nenn Eintraege de-/aktivieren und einen Status-Kommentar abegeben.]]></item>
+		<item name="wcf.acp.group.option.mod.business.canEditLinks"><![CDATA[Kann Eintraege bearbeiten]]></item>
+		<item name="wcf.acp.group.option.mod.business.canEditLinks.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.mod.business.canDeleteLinks"><![CDATA[Kann Eintraege l&ouml;schen]]></item>
+		<item name="wcf.acp.group.option.mod.business.canDeleteLinks.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Eintraege <strong>komplett</strong> l&ouml;schen.]]></item>
+		<item name="wcf.acp.group.option.mod.business.canSeeModerationOverview"><![CDATA[Kann Moderations-&Uuml;bersicht sehen]]></item>
+		<item name="wcf.acp.group.option.mod.business.canSeeModerationOverview.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen die Moderations-&Uuml;bersicht sehen.]]></item>
+
+		<item name="wcf.acp.group.option.mod.business.canEditComments"><![CDATA[Kann Reviews bearbeiten]]></item>
+		<item name="wcf.acp.group.option.mod.business.canEditComments.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Reviews bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.mod.business.canDeleteComments"><![CDATA[Kann Reviews l&ouml;schen]]></item>
+		<item name="wcf.acp.group.option.mod.business.canDeleteComments.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Reviews l&ouml;schen.]]></item>
+
+		<item name="wcf.acp.group.option.admin.business.canAddCategory"><![CDATA[Kann Kategorie hinzuf&uuml;gen]]></item>
+		<item name="wcf.acp.group.option.admin.business.canAddCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen neue Kategorien hinzuf&uuml;gen.]]></item>
+		<item name="wcf.acp.group.option.admin.business.canEditCategory"><![CDATA[Kann Kategorien bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.business.canEditCategory.description"><![CDATA[Mitglieder dieser Benutzergruppe k&ouml;nnen Kategorien bearbeiten.]]></item>
+	</category>
+	<!-- /wcf.acp.group -->
+	
+	<!-- wcf.acp.package -->
+	<category name="wcf.acp.package">
+		<item name="wcf.acp.package.step.install.BusinessMenuPackageInstallationPlugin"><![CDATA[Buisness Database Menü wird installiert ...]]></item>
+	</category>
+	<!-- /wcf.acp.package -->
+	
+</language>

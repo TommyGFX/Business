@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/help.xsd">
+	<import>
+		<helpitem name="business">
+			<showorder>8</showorder>
+			<refererpattern><![CDATA[index\.php\?(?:page=Business|form=Business)]]></refererpattern>
+			<permissions>user.business.canViewBusiness</permissions>
+		</helpitem>
+	</import>
+</data>
+

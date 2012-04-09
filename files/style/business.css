@@ -1,0 +1,126 @@
+.authorInfo div {
+	text-align: center;
+	margin: 0;
+}
+
+.columnLayout-2 .leftColumn {
+	float: left;
+	width: 22%;
+	min-width: 180px;
+}
+
+.columnLayout-2 .leftColumn .border {
+	padding: 1px;
+}
+
+.columnLayout-2 .leftColumn .border .containerHead {
+	margin: 0;
+}
+
+.columnLayout-2 .leftColumn .pageMenu span {
+	display: inline;
+}
+
+.columnLayout-2 .leftColumn .container-1 {
+	margin: 0;
+}
+
+.columnLayout-2 .centerColumn {
+	float: right;
+	width: 75%;
+}
+
+.businessUserMessenger ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.businessUserMessenger ul li {
+	display: inline;
+}
+
+
+#businessCategoryList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.businessCategoryListInner:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.businessCategoryListInner .containerContent {
+	margin-left: 84px;
+	padding: 20px;
+}
+
+.businessCategoryListInner .containerIcon {
+	padding: 20px;
+	float: left;
+}
+
+.businessCategoryListInner h4 {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+.businessCategoryListDescription {
+	margin-bottom: 5px;
+}
+
+.businessSmallCategoryListInner:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.businessSmallCategoryListInner .containerContent {
+	margin-left: 84px;
+	padding: 10px;
+}
+
+.businessSmallCategoryListInner .containerIcon {
+	padding: 20px;
+	float: left;
+}
+
+.businessSmallCategoryListInner h4 {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+
+.businessData {
+	border-left-width: 0 !important;
+	border-right-width: 0 !important;
+	margin: 0 0 7px 0;
+	padding: 4px 0 0 0;	
+}
+
+.businessLinksList .businessData {
+	border-bottom-width: 0;	
+}
+
+.businessLinksList .messageHeader {
+	padding-top: 3px !important;
+}
+
+.businessLinksList .messageInner {
+	padding-left: 15px !important;
+	padding-right: 15px !important;	
+}
+
+.businessLinkRating {
+	padding-top: 7px;
+	float: left;
+}
+
+.noJavaScript .message {
+	border-width: 0 !important;
+}
