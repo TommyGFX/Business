@@ -6,7 +6,7 @@ require_once(WCF_DIR.'lib/data/business/BusinessLink.class.php');
  * Provides functions to manage this link.
  * 
  * @author 	Rico P.
- * @copyright	2010 TommyGFX-Design
+ * @copyright	2012 Rico P.
  * @license	Lesser General Public License <http://de.wikipedia.org/wiki/GNU_Lesser_General_Public_License>
  * @package	de.wcf.tommygfx.business
  * @subpackage	data.business.page.location

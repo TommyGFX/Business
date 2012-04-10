@@ -10,7 +10,7 @@ WCF::getCache()->addResource('businessStatistics', WCF_DIR.'cache/cache.business
  * Shows the add form for a new business category.
  * 
  * @author 	Rico P.
- * @copyright	2010 TommyGFX-Design
+ * @copyright	2012 Rico P.
  * @license	Lesser General Public License <http://de.wikipedia.org/wiki/GNU_Lesser_General_Public_License>
  * @package	de.wcf.tommygfx.business
  * @subpackage	acp.form

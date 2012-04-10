@@ -7,7 +7,7 @@ require_once(WCF_DIR.'lib/data/business/BusinessLinkWarningObject.class.php');
  * An implementation of WarningObjectType to support the usage of a link as a warning object.
  * 
  * @author 	Rico P.
- * @copyright	2010 TommyGFX-Design
+ * @copyright	2012 Rico P.
  * @license	Lesser General Public License <http://de.wikipedia.org/wiki/GNU_Lesser_General_Public_License>
  * @package	de.wcf.tommygfx.business
  * @subpackage	data.business

@@ -6,7 +6,7 @@ require_once(WCF_DIR.'lib/data/business/category/BusinessCategory.class.php');
  * Show the editor for delete, update or add a category.
  *
  * @author 	Rico P.
- * @copyright	2010 TommyGFX-Design
+ * @copyright	2012 Rico P.
  * @license	Lesser General Public License <http://de.wikipedia.org/wiki/GNU_Lesser_General_Public_License>
  * @package	de.wcf.tommygfx.business
  * @subpackage		data.business.category
