@@ -130,4 +130,3 @@ CREATE TABLE wcf1_business_menu_item (
 	PRIMARY KEY (menuItemID),
 	UNIQUE KEY (menuItem,packageID)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
-

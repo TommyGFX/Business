@@ -57,6 +57,7 @@
 
 	{include file='businessUserSidebar'}
 	{include file='businessMenu'}
+	{include file='businessMap'}
 
 	<div class="border" id="info-content">
 		<div class="layout-2">

@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>Business Database</packagename>
 		<packagedescription>Dieses Plugin stellt Ihnen und Ihren Mitgliedern eine umfassende Business Database mit vielen Funktionen zur Verfügung.</packagedescription>
-		<version>0.2.5</version>
-		<date>2010-11-25</date>
+		<version>0.2.6</version>
+		<date>2012-04-13</date>
 		<plugin>com.woltlab.wcf</plugin>
 		<standalone>0</standalone>
 		<isunique>1</isunique>
@@ -12,7 +12,7 @@
   
 	<authorinformation>
 		<author>Rico P.</author>
-		<authorurl>http://www.tommygfx-design.de</authorurl>
+		<authorurl></authorurl>
 	</authorinformation>
   
 	<requiredpackages>
@@ -36,6 +36,7 @@
 		<acptemplates>acptemplates.tar</acptemplates>
 		<acpmenu>acpmenu.xml</acpmenu>
 		<options>options.xml</options>
+		<cronjobs>cronjobs.xml</cronjobs>
 		<help>help.xml</help>
 		<taggable>taggable.xml</taggable>
 		<groupoptions>groupoptions.xml</groupoptions>
@@ -50,7 +51,7 @@
 		<pagelocation>pagelocation.xml</pagelocation>
 	</instructions>
 	
-	<instructions type="update" fromversion="0.2.4">
+	<instructions type="update" fromversion="0.2.5">
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
 		<eventlistener>eventlistener.xml</eventlistener>
